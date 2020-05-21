@@ -1,14 +1,14 @@
 import java.util.*;
 
-public class mainOptimal { 
+public class Main {
    public static void main(String[] args) throws java.io.IOException {	
       Scanner keyboardInput = new Scanner(System.in);
       
-      printerOptimal gridPrinter = new printerOptimal();
-      manualOptimal manFill = new manualOptimal();
-      solverOptimal gridSolver = new solverOptimal();
-      FROptimal myFileReader = new FROptimal();
-      checkerOptimal solveChecker = new checkerOptimal();
+      GridPrinter gridPrinter = new GridPrinter();
+      ManualEntry manFill = new ManualEntry();
+      Solver gridSolver = new Solver();
+      FileEntry myFileReader = new FileEntry();
+      SolvedChecker solveChecker = new SolvedChecker();
       
       ArrayList<ArrayList<ArrayList<Integer>>> x 
          = new ArrayList<ArrayList<ArrayList<Integer>>>();
