@@ -11,3 +11,7 @@ easy-level algorithms, which eliminate possible numbers from rows, columns, and 
 defined spaces; the intermediates, which eliminate numbers in 2-dimensional ways; the hards, which eliminate numbers in rows
 and columns based off imperfectly defined spaces; and finally the expert method, which uses all the previous methods to 
 eliminate possibilities and then uses systematic guesswork to determine the answer from the remaining possibilities.
+
+Instructions: The program gives the option to input puzzles automatically (easy) or manually (tedious). The automatic 
+method inputs from text files, and a few such files are given as reference. Testing different files can be done by changing
+the file name in line 7 of FROptimal.java.
