@@ -3,7 +3,7 @@ This program solves any sudoku puzzle. Most are solved within 15ms, and it takes
 as defined at https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html and 
 https://www.telegraph.co.uk/news/science/science-news/9360022/Worlds-hardest-sudoku-the-answer.html.
 
-This is the author's first project, and admittedly needs significant refining, but is an excellent first exercise. Next steps
+This project is an excellent demonstration of the author's skills in Python and object-oriented. Next steps
 involve reducing code complexity and resource requirements, and building a UI.
 
 The program primarily solves puzzles by processes of elimination. The author groups the solving methods in 4 ways: the 
